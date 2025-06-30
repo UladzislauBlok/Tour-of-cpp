@@ -1,10 +1,10 @@
 /*
-*A declaration is a statement that introduces an entity into the program and specifies its type:
+A declaration is a statement that introduces an entity into the program and specifies its type:
 • A type defines a set of possible values and a set of operations (for an object).
 • An object is some memory that holds a value of some type.
 • A value is a set of bits interpreted according to a type.
 • A variable is a named object
- */
+*/
 
 //bool Boolean, possible values are true and false
 //char character, for example, 'a', 'z', and '9'
@@ -77,11 +77,12 @@ std::vector<int> v {1, 2, 3, 4, 5, 6}; // a vector of ints
 
 // Auto:
 /*
-*We use auto where we don’t have a specific reason to mention the type explicitly. ‘Specific reasons’ include:
+Auto:
+We use auto where we don’t have a specific reason to mention the type explicitly. ‘Specific reasons’ include:
 • The definition is in a large scope where we want to make the type clearly visible to readers of our code.
 • The type of the initializer isn’t obvious.
 • We want to be explicit about a variable’s range or precision (e.g., double rather than float).
- */
+*/
 auto b = true; // a bool
 auto ch = 'x'; // a char
 auto i = 123; // an int
