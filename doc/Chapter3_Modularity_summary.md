@@ -1,0 +1,13 @@
+1. Distinguish between declarations (used as interfaces) and definitions (used as implementations);
+2. Prefer modules over headers (where modules are supported);
+3. Use header files to represent interfaces and to emphasize logical structure;
+4. #include a header in the source file that implements its functions;
+5. Avoid non-inline function definitions in headers;
+6. Use namespaces to express logical structure;
+7. Use using-directives for transition, for foundational libraries (such as std), or within a local scope;
+8. Don’t put a using-directive in a header file; 
+9. Pass ‘small’ values by value and ‘large‘ values by reference;
+10. Prefer pass-by-const-reference over plain pass-by-reference;
+11. Return values as function-return values (rather than by out-parameters);
+12. Don’t overuse return-type deduction;
+13. Don’t overuse structured binding; a named return type often gives more readable code;
