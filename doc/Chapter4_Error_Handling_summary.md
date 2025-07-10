@@ -1,0 +1,18 @@
+1. Throw an exception to indicate that you cannot perform an assigned task;
+2. Use exceptions for error handling only;
+3. Failing to open a file or to reach the end of an iteration are expected events and not exceptional;
+4. Use error codes when an immediate caller is expected to handle the error;
+5. Throw an exception for errors expected to percolate up through many function calls;
+6. If in doubt whether to use an exception or an error code, prefer exceptions;
+7. Develop an error-handling strategy early in a design;
+8. Use purpose-designed user-defined types as exceptions (not built-in types);
+9. Don’t try to catch every exception in every function;
+10. You don’t have to use the standard-library exception class hierarchy;
+11. Prefer RAII to explicit try-blocks;
+12. Let a constructor establish an invariant, and throw if it cannot;
+13. Design your error-handling strategy around invariants;
+14. What can be checked at compile time is usually best checked at compile time;
+15. Use an assertion mechanism to provide a single point of control of the meaning of failure;
+16. Concepts (§8.2) are compile-time predicates and therefore often useful in assertions;
+17. If your function may not throw, declare it noexcept;
+18. Don’t apply noexcept thoughtlessly;
