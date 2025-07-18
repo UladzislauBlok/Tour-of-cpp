@@ -1,0 +1,11 @@
+1. Use templates to express algorithms that apply to many argument types;
+2. Use templates to express containers;
+3. Use templates to raise the level of abstraction of code;
+4. Templates are type safe, but for unconstrained templates checking happens too late;
+5. Let constructors or function templates deduce class template argument types;
+6. Use function objects as arguments to algorithms;
+7. Use a lambda if you need a simple function object in one place only;
+8. A virtual function member cannot be a template member function;
+9. Use finally() to provide RAII for types without destructors that require ‘cleanup operations’;
+10. Use template aliases to simplify notation and hide implementation details;
+11. Use if constexpr to provide alternative implementations without run-time overhead;
