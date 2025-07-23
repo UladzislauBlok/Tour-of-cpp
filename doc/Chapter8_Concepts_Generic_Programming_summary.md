@@ -1,0 +1,18 @@
+1. Templates provide a general mechanism for compile-time programming;
+2. When designing a template, carefully consider the concepts (requirements) assumed for its template arguments;
+3. When designing a template, use a concrete version for initial implementation, debugging, and measurement;
+4. Use concepts as a design tool;
+5. Specify concepts for all template arguments;
+6. Whenever possible use named concepts (e.g., standard-library concepts);
+7. Use a lambda if you need a simple function object in one place only;
+8. Use templates to express containers and ranges;
+9. Avoid ‘concepts’ without meaningful semantics;
+10. Require a complete set of operations for a concept;
+11. Use named concepts;
+12. Avoid 'requires requires';
+13. auto is the least constrained concept;
+14. Use variadic templates when you need a function that takes a variable number of arguments of a variety of types;
+15. Templates offer compile-time ‘duck typing’;
+16. When using header files, #include template definitions (not just declarations) in every translation unit that uses them;
+17. To use a template, make sure its definition (not just its declaration) is in scope;
+18. Unconstrained templates offer compile-time ‘duck typing’;
