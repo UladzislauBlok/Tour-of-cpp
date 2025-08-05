@@ -1,0 +1,11 @@
+1. An STL algorithm operates on one or more sequences;
+2. An input sequence is half-open and defined by a pair of iterators;
+3. You can define your own iterators to serve special needs;
+4. Many algorithms can be applied to I/O streams;
+5. When searching, an algorithm usually returns the end of the input sequence to indicate 'not found';
+6. Algorithms do not directly add or subtract elements from their argument sequences;
+7. When writing a loop, consider whether it could be expressed as a general algorithm;
+8. Use using-type-aliases to clean up messy notation;
+9. Use predicates and other function objects to give standard algorithms a wider range of meanings;
+10. A predicate must not modify its argument;
+11. Know your standard-library algorithms and prefer them to hand-crafted loops;
