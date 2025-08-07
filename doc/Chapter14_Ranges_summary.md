@@ -7,3 +7,7 @@
 7. The ideal for types is regular;
 8. Prefer standard-library concepts where they apply;
 9. When requesting parallel execution, be sure to avoid data races and deadlock;
+10. A range can be defined by:
+    - A {begin,end} pair of iterators
+    - A {begin,n} pair, where begin is an iterator and n is the number of elements
+    - A {begin,pred} pair, where begin is an iterator and pred is a predicate; 
