@@ -1,0 +1,12 @@
+1. Numerical problems are often subtle. If you are not 100% certain about the mathematical aspects of a numerical problem, either take expert advice, experiment, or do both;
+2. Don’t try to do serious numeric computation using only the bare language;
+3. Consider accumulate(), inner_product(), partial_sum(), and adjacent_difference() before you write a loop to compute a value from a sequence;
+4. For larger amounts of data, try the parallel and vectorized algorithms;
+5. Use std::complex for complex arithmetic;
+6. Bind an engine to a distribution to get a random number generator;
+7. Be careful that your random numbers are sufficiently random for your intended use;
+8. Don’t use the C standard-library rand();
+9. Use valarray for numeric computation when run-time efficiency is more important than flexibility with respect to operations and element types;
+10. Properties of numeric types are accessible through numeric_limits;
+11. Use numeric_limits to check that the numeric types are adequate for their use;
+12. Use aliases for integer types if you want to be specific about their sizes;
